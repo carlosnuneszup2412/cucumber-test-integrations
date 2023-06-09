@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="31.477">
+    <testcase classname="Cadastrando cliente" name="Cadastrando cliente com sucesso" time="1.501">
+        <system-out>
+            <![CDATA[Dado o endpoint "POST" "/clientes" "1.1" "Com sucesso"......................passed
+Quando envia a requisicao "cadastrando/cadastrandoRequest"..................passed
+Entao devera retornar statusCode "201"......................................passed
+E o payload contendo a resposta da requisicao "cadastrando/cadastrandoResponse".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Consultado cliente" name="Consultando cliente com sucesso" time="0.072">
+        <system-out>
+            <![CDATA[Dado o endpoint "GET" "/clientes" "1.1" "Com sucesso".......................passed
+Quando envia a requisicao ""................................................passed
+Entao devera retornar statusCode "200"......................................passed
+E o payload contendo a resposta da requisicao "consultando/consultandoResponse".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

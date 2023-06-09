@@ -1,0 +1,9 @@
+{
+  "cpf": "98098120060",
+  "nome": "Carlos",
+  "email": "carlos@test.com",
+  "conta": {
+    "status": "ATIVA",
+    "tipo": "CORRENTE"
+  }
+}

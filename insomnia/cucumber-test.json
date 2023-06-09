@@ -1,0 +1,112 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-05-20T23:10:11.509Z",
+  "__export_source": "insomnia.desktop.app:v2022.7.5",
+  "resources": [
+    {
+      "_id": "req_1e24b1506a9144bab353c4fe5dd07e1a",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1684622802872,
+      "created": 1684620426360,
+      "url": "http://localhost:8080/v1/clientes",
+      "name": "Criar Cliente",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"cpf\": \"980981200912\",\n\t\"nome\": \"Carlos\",\n\t\"email\": \"carlos@test.com\",\n\t\"conta\": {\n\t\t\"status\": \"ATIVA\",\n\t\t\"tipo\": \"CORRENTE\"\n\t}\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1684620426360,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "parentId": null,
+      "modified": 1684624155022,
+      "created": 1674998024139,
+      "name": "cucumber-test",
+      "description": "",
+      "scope": "design",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_e9d162428c3247c4916bfeab6895e3b0",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1684623546608,
+      "created": 1674998024143,
+      "url": "http://localhost:8080/v1/clientes/980981200912",
+      "name": "Buscar Cliente",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1674998024143,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_51423e27589341c56c88cd40f1d5400ee984a7eb",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1674998024141,
+      "created": 1674998024141,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1674998024141,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_51423e27589341c56c88cd40f1d5400ee984a7eb",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1674998024142,
+      "created": 1674998024142,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_382909e0e8d642a0ab3bf78e845c290e",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1684624155020,
+      "created": 1674998024140,
+      "fileName": "cucumber-test",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    },
+    {
+      "_id": "uts_01db0839a9cf4c34b1f8c0e962f3328f",
+      "parentId": "wrk_7d9e00e1ec6645aeb1d9a5085e0f6ff9",
+      "modified": 1674998024143,
+      "created": 1674998024143,
+      "name": "Example Test Suite",
+      "_type": "unit_test_suite"
+    }
+  ]
+}
